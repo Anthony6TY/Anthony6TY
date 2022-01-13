@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Anthony predictions site 
+
+# Controls when the workflow will run
+on:every day 
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:puch
+    branches: [ mapunch 
+  pull_request:
+    branches: [ main ]punch 
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:display 
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:parallel 
+  # This workflow contains a single job called "build"
+  build:football  league predictions
+    # all football league matches predictions 
+  
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:3 steps 
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script yes
+        run: |run q multi-ine script yes
+          echo Add other actions to build,
+          echo test, and deploy your project.matches
